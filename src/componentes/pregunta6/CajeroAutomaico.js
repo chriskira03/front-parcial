@@ -6,10 +6,9 @@ const CajeroAutomaico = () => {
 	const dispach = useDispatch();
 	const cantidad = useSelector((state) => state.userCajero).indice;
 	const saldo = useSelector((state) => state.userCajero).saldo;
-
-
     
 	const [validadRetiro, setValidarRetiro] = useState(true);
+	
 	const conteoRetiro = (valor) => {
 		if (cantidad + valor <= saldo) {
 			dispach(setCantidad(cantidad + valor));
