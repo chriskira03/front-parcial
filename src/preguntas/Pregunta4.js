@@ -40,15 +40,10 @@ const Pregunta4 = () => {
 				<div className="card border border-2 shadow text-primary lead fs-4">
 					<p className="lead fs-3 fw-bold text-success">
 						<p>Numeros Primos</p>
-						{/* Detalle producto: precio: S/. {producto.precio} */}
 					</p>
 					<div className="card-header">
-						{/* <p>Nombre: {lugares.nombre}</p>
-						<p>Valoracion: {lugares.valoracion}</p>
-						<p>continente: {lugares.continente}</p> */}
 					</div>
 					<div className="card-body">Numero Primo : {primo}</div>
-					{/* <div className="card-footer">Descripcion: {primo}</div> */}
 				</div>
 				{/* ))} */}
 			</div>

@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import Navegador from './ruteo/Navegador';
 
 function App() {

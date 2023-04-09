@@ -13,8 +13,7 @@ const Pregunta2 = () => {
 				obj[lugar.continente] = lugar;
 			}
 			return obj;
-		},
-		{}
+		}
 	);
 
 	const lugaresFiltrados = Object.values(lugaresConMayorValoracion);
